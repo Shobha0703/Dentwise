@@ -9,7 +9,6 @@ A modern AI-powered Dental Appointment Web App with real-time email confirmation
 <a href="#"><img src="https://img.shields.io/badge/Framework-Next.js-black" /></a>
 <a href="#"><img src="https://img.shields.io/badge/UI-ShadCN UI-blueviolet" /></a>
 <a href="#"><img src="https://img.shields.io/badge/Email-Resend-red" /></a>
-<a href="#"><img src="https://img.shields.io/badge/License-MIT-yellow" /></a>
 </p>
 
 ---
@@ -17,7 +16,7 @@ A modern AI-powered Dental Appointment Web App with real-time email confirmation
 ## ✨ Overview
 
 **DentWise** simplifies dental appointment booking with a modern interface and secure email notifications.  
-Users can easily schedule appointments, receive instant confirmation emails, and enjoy a clean & responsive UI powered by **ShadCN UI + Tailwind CSS**.
+Users can easily schedule appointments, receive instant confirmation emails, and enjoy a clean & responsive UI powered by **ShadCN UI**
 
 ---
 
@@ -51,4 +50,4 @@ Users can easily schedule appointments, receive instant confirmation emails, and
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/YOUR-USERNAME/DentWise.git
+git clone https://github.com/Shobha0703/DentWise.git
