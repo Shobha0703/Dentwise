@@ -58,7 +58,7 @@ Designed with **Next.js + ShadCN UI**, the app delivers a clean, modern, and res
 
 
 
-### Create .env file
+## 🔐 Environment Variables
 
 
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_public_key_here
