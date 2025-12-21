@@ -1,98 +1,93 @@
 <h1 align="center">🦷 DentWise</h1>
 
 <p align="center">
-A modern AI-powered Dental Appointment Web App with real-time email confirmation, elegant UI, and smooth user experience.
+A modern Dental Appointment Booking Web App with real-time email confirmation, elegant UI, and seamless user experience.
 </p>
 
 <p align="center">
-<a href="#"><img src="https://img.shields.io/badge/Status-Active-brightgreen" /></a>
-<a href="#"><img src="https://img.shields.io/badge/Framework-Next.js-black" /></a>
-<a href="#"><img src="https://img.shields.io/badge/UI-ShadCN UI-blueviolet" /></a>
-<a href="#"><img src="https://img.shields.io/badge/Email-Resend-red" /></a>
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen" />
+  <img src="https://img.shields.io/badge/Framework-Next.js-black" />
+  <img src="https://img.shields.io/badge/UI-ShadCN-blueviolet" />
+  <img src="https://img.shields.io/badge/Email-Resend-red" />
+  <img src="https://img.shields.io/badge/Auth-Clerk-orange" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow" />
 </p>
 
 ---
 
 ## ✨ Overview
-
-**DentWise** simplifies dental appointment booking with a modern interface and secure email notifications.  
-Users can easily schedule appointments, receive instant confirmation emails, and enjoy a clean & responsive UI powered by **ShadCN UI**
+**DentWise** is a smart dental appointment booking system that allows users to easily schedule appointments online and receive instant email confirmations.  
+Designed with **Next.js + ShadCN UI**, the app delivers a clean, modern, and responsive interface with smooth performance.
 
 ---
 
 ## 🚀 Features
 
-- 🗓️ **Book Appointments Online**
-- 📧 **Instant Email Confirmation (Resend)**
-- 🎨 **Beautiful & Professional UI using ShadCN**
-- 📱 **Fully Responsive**
-- ⚡ **Fast & Optimized**
-- 🔒 **Secure & Reliable**
-- 🧾 **Clean Code + Scalable Structure**
+- 🗓️ Online Appointment Booking
+- 📧 Instant Appointment Confirmation Email (Resend)
+- 🔐 Secure Authentication (Clerk)
+- 🎨 Modern & Beautiful UI (ShadCN + Tailwind)
+- 📱 Fully Responsive (Mobile Friendly)
+- ⚡ Fast, Reliable & Optimized
+- 🧾 Clean & Well-Structured Codebase
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### **Frontend**
-- Next.js 
-- TypeScript
-- ShadCN UI
+- Next.js  
+- TypeScript  
+- ShadCN UI  
+ 
+
+### **Backend**
+- Next.js API Routes   
+- Database ( PostgreSQL)
+
+### **Email & Integrations**
+- Resend (Email Service)
+- Clerk (Authentication)
+- Vapi 
+
+---
+
+## 🌍 Live Demo
+🔗 **Live Website:** https://dentwise-omega.vercel.app/  
 
 
 
 
-### **Email**
-- Resend (Transactional Email Service)
+## 🔐 Environment Variables
+
+Create a `.env` file in the root of the project and add:
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+NEXT_PUBLIC_VAPI_ASSISTANT_ID=
+NEXT_PUBLIC_VAPI_API_KEY=
+NEXT_PUBLIC_APP_URL=
+CLERK_SECRET_KEY=
+DATABASE_URL=
+ADMIN_EMAIL=
+RESEND_API_KEY=
+
 
 
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone the Repository
-```bash
+### 1️⃣ Clone Repository
+
 git clone https://github.com/Shobha0703/DentWise.git
 
-2️⃣ Open Project
+### 2️⃣ Navigate to Project
 cd DentWise
 
-3️⃣ Install Dependencies
+ ### 3️⃣ Install Dependencies
 npm install
 
-4️⃣ Add Environment Variables
+ ### 4️⃣ Setup Environment Variables
 
-Create a .env file:
+Create .env file and add keys (mentioned above)
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_public_key
-NEXT_PUBLIC_VAPI_ASSISTANT_ID=your_vapi_assistant_id
-NEXT_PUBLIC_VAPI_API_KEY=your_public_vapi_key
-NEXT_PUBLIC_APP_URL=http://localhost:3000
-CLERK_SECRET_KEY= (Clerk backend secret)
-DATABASE_URL= (Database connection string)
-ADMIN_EMAIL= (Admin email)
-RESEND_API_KEY= (Used for email service)
-
-
-5️⃣ Run Project
+ ### 5️⃣ Run Development Server
 npm run dev
-
-
-🎨 UI & Design
-
-DentWise UI is crafted using:
-
-🧩 ShadCN UI components
-
-🎯 Minimal & professional theme
-
-🌗 Smooth animations
-
-📱 Responsive layout
-
-📧 Email Service
-
-
-👩‍💻 Author
-Shobha Goswami
-📧 Email:shobhagoswami0703@gmail.com
-🐙 GitHub: https://github.com/Shoha0703
 
