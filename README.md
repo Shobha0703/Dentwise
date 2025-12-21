@@ -82,18 +82,17 @@ RESEND_API_KEY=your_resend_api_key_here
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone Repository
-```bash
+
 
 git clone https://github.com/Shobha0703/DentWise.git
 
 
 ### 2️⃣ Navigate to Project
-```bash
+
 
 cd DentWise
 
  ### 3️⃣ Install Dependencies
-```bash
 
 npm install
 
@@ -103,7 +102,7 @@ npm install
 Create .env file and add keys (mentioned above)
 
  ### 5️⃣ Run Development Server
-```bash
+
 
 npm run dev
 
