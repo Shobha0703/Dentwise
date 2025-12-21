@@ -62,8 +62,14 @@ npm install
 
 Create a .env file:
 
-RESEND_API_KEY=your_resend_key
-NEXT_PUBLIC_BASE_URL=your_url
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_public_key
+NEXT_PUBLIC_VAPI_ASSISTANT_ID=your_vapi_assistant_id
+NEXT_PUBLIC_VAPI_API_KEY=your_public_vapi_key
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+CLERK_SECRET_KEY= (Clerk backend secret)
+DATABASE_URL= (Database connection string)
+ADMIN_EMAIL= (Admin email)
+RESEND_API_KEY= (Used for email service)
 
 
 5️⃣ Run Project
