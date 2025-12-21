@@ -57,9 +57,6 @@ Designed with **Next.js + ShadCN UI**, the app delivers a clean, modern, and res
 
 
 
-
-
-
 ## 🔐 Environment Variables
 
 Create a `.env` file in the root of the project and add:
@@ -75,34 +72,21 @@ ADMIN_EMAIL=admin_email_used_for_app
 RESEND_API_KEY=your_resend_api_key_here
 
 
-
-
-
-
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone Repository
-
-
 git clone https://github.com/Shobha0703/DentWise.git
 
-
 ### 2️⃣ Navigate to Project
-
-
 cd DentWise
 
  ### 3️⃣ Install Dependencies
-
 npm install
 
  ### 4️⃣ Setup Environment Variables
 
-
 Create .env file and add keys (mentioned above)
 
  ### 5️⃣ Run Development Server
-
-
 npm run dev
 
