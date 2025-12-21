@@ -51,3 +51,44 @@ Users can easily schedule appointments, receive instant confirmation emails, and
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/Shobha0703/DentWise.git
+
+2️⃣ Open Project
+cd DentWise
+
+3️⃣ Install Dependencies
+npm install
+
+4️⃣ Add Environment Variables
+
+Create a .env file:
+
+RESEND_API_KEY=your_resend_key
+NEXT_PUBLIC_BASE_URL=your_url
+
+
+5️⃣ Run Project
+npm run dev
+
+
+🎨 UI & Design
+
+DentWise UI is crafted using:
+
+🧩 ShadCN UI components
+
+🎯 Minimal & professional theme
+
+🌗 Smooth animations
+
+📱 Responsive layout
+
+📧 Email Service
+
+DentWise uses Resend to send confirmation emails.
+
+Verified Sender Domain
+
+Professional Email Format
+
+Fast and Reliable Delivery
+
