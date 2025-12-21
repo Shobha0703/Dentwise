@@ -62,8 +62,10 @@ Designed with **Next.js + ShadCN UI**, the app delivers a clean, modern, and res
 
 ## 🔐 Environment Variables
 
+Create a `.env` file in the root of the project and add:
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY= your_clerk_public_key_here
+```bash
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_public_key_here
 NEXT_PUBLIC_VAPI_ASSISTANT_ID=your_vapi_assistant_id_here
 NEXT_PUBLIC_VAPI_API_KEY=your_vapi_public_api_key_here
 NEXT_PUBLIC_APP_URL=http://localhost:3000
@@ -71,6 +73,7 @@ CLERK_SECRET_KEY=your_clerk_secret_key_here
 DATABASE_URL=your_database_connection_string_here
 ADMIN_EMAIL=admin_email_used_for_app
 RESEND_API_KEY=your_resend_api_key_here
+
 
 
 
