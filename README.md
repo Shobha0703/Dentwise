@@ -10,7 +10,7 @@ A modern Dental Appointment Booking Web App with real-time email confirmation, e
   <img src="https://img.shields.io/badge/UI-ShadCN-blueviolet" />
   <img src="https://img.shields.io/badge/Email-Resend-red" />
   <img src="https://img.shields.io/badge/Auth-Clerk-orange" />
-  <img src="https://img.shields.io/badge/License-MIT-yellow" />
+
 </p>
 
 ---
@@ -61,14 +61,15 @@ Designed with **Next.js + ShadCN UI**, the app delivers a clean, modern, and res
 ## 🔐 Environment Variables
 
 Create a `.env` file in the root of the project and add:
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-NEXT_PUBLIC_VAPI_ASSISTANT_ID=
-NEXT_PUBLIC_VAPI_API_KEY=
-NEXT_PUBLIC_APP_URL=
-CLERK_SECRET_KEY=
-DATABASE_URL=
-ADMIN_EMAIL=
-RESEND_API_KEY=
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_public_key_here
+NEXT_PUBLIC_VAPI_ASSISTANT_ID=your_vapi_assistant_id_here
+NEXT_PUBLIC_VAPI_API_KEY=your_vapi_public_api_key_here
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+
+CLERK_SECRET_KEY=your_clerk_secret_key_here
+DATABASE_URL=your_database_connection_string_here
+ADMIN_EMAIL=admin_email_used_for_app
+RESEND_API_KEY=your_resend_api_key_here
 
 
 
