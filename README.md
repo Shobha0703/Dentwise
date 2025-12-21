@@ -57,7 +57,9 @@ Designed with **Next.js + ShadCN UI**, the app delivers a clean, modern, and res
 
 
 
-Create a `.env` file in the root of the project and add:
+
+### Create .env file
+
 
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_public_key_here
 NEXT_PUBLIC_VAPI_ASSISTANT_ID=your_vapi_assistant_id_here
