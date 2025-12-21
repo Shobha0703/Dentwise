@@ -38,9 +38,9 @@ Users can easily schedule appointments, receive instant confirmation emails, and
 - Next.js 
 - TypeScript
 - ShadCN UI
-- Tailwind CSS
 
- Next.js API Routes / Node & Express (write what you used)
+
+
 
 ### **Email**
 - Resend (Transactional Email Service)
@@ -84,16 +84,8 @@ DentWise UI is crafted using:
 
 📧 Email Service
 
-DentWise uses Resend to send confirmation emails.
-
-Verified Sender Domain
-
-Professional Email Format
-
-Fast and Reliable Delivery
 
 👩‍💻 Author
-
 Shobha Goswami
 📧 Email:shobhagoswami0703@gmail.com
 🐙 GitHub: https://github.com/Shoha0703
